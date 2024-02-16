@@ -26,5 +26,26 @@ public class Hello {
         if (topScore > secondTopScore || topScore < 100) {
             System.out.println("Either top score is greater than second top score or top score is less than 100");
         }
+
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+        if(isCar = true) {
+            System.out.println("This is not supposed to execute");
+        }
+
+        String makeOfCar = "volkswagon";
+        boolean isDomestic = makeOfCar == "volkswagon" ? false : true;
+
+        if (isDomestic) {
+            System.out.println("This car is domestic");
+        }
+
+        String s = (isDomestic) ? "This car is domestic" : "This car is not domestic";
+
+        System.out.println(s);
     }
 }
