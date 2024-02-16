@@ -21,5 +21,10 @@ public class Hello {
         if (topScore > secondTopScore && topScore < 100) {
             System.out.println("Greater than second top score and less than 100");
         }
+
+        secondTopScore = 81;
+        if (topScore > secondTopScore || topScore < 100) {
+            System.out.println("Either top score is greater than second top score or top score is less than 100");
+        }
     }
 }
