@@ -47,5 +47,15 @@ public class Hello {
         String s = (isDomestic) ? "This car is domestic" : "This car is not domestic";
 
         System.out.println(s);
+
+        double doubleOne = 20.00, doubleTwo = 80.00;
+        double doubleThree = (doubleOne + doubleTwo) * 100.00;
+        double remainder = doubleThree % 40.00;
+        boolean hasRemainder = remainder > 0.00 ? true : false;
+        System.out.println("hasRemainder: " + hasRemainder);
+
+        if (hasRemainder) {
+            System.out.println("has some remainder");
+        }
     }
 }
